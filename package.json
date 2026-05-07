@@ -1,0 +1,17 @@
+{
+  "name": "llmwiki-x",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "极简 LLM Wiki 知识库 — 维护 markdown 文件, MCP server 供外部 Agent 调用",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "mcp": "node scripts/kb-mcp-server.mjs",
+    "mcp:http": "node scripts/kb-mcp-http-server.mjs"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  },
+  "license": "MIT"
+}
